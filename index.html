@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>김채은 | 생태공간 분석 전문가</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="topnav">
+    <div class="container topnav-inner">
+      <a class="logo" href="#hero">KIM CHAEEUN</a>
+      <div class="nav-links">
+        <a href="#ai-summary">Profile</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Capabilities</a>
+        <a href="#chatbot">Ask</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <div class="container hero-inner">
+      <p class="hero-eyebrow">환경생태부 · 생태복원팀 <span class="hero-eyebrow-en">/ Ecological Restoration Team</span></p>
+      <h1 class="hero-name">김채은<span class="hero-name-en">CHAEEUN KIM</span></h1>
+      <p class="hero-role">생태공간 데이터 분석 실무자 <span class="hero-role-en">— Ecological GIS Specialist</span></p>
+      <p class="hero-tagline">QGIS 기반의 정밀한 공간 분석으로 데이터 기반 환경 계획을 수립합니다.</p>
+      <p class="hero-tagline-en">Grounded in landscape architecture, advancing through GIS-driven ecological planning.</p>
+      <div class="hero-keywords" id="hero-keywords"></div>
+    </div>
+    <div class="hero-strip"></div>
+  </header>
+
+  <main class="container">
+
+    <!-- AI Summary -->
+    <section class="section feature-section" id="ai-summary">
+      <div class="section-head">
+        <span class="overline">01 · AI Summary</span>
+        <span class="rule"></span>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-visual" aria-hidden="true">
+          <span class="feature-visual-mark">GIS</span>
+        </div>
+        <div class="feature-copy">
+          <h2 class="feature-title">데이터로 증명하는<br>생태 공간 전문성</h2>
+          <div class="summary-text" id="summary-text"></div>
+          <p class="feature-motto" id="feature-motto"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certification -->
+    <section class="section" id="credentials">
+      <div class="section-head">
+        <span class="overline">02 · Education &amp; Certification</span>
+        <span class="rule"></span>
+      </div>
+      <div class="credential-grid">
+        <div>
+          <h3 class="credential-heading">학력 <span class="credential-heading-en">Education</span></h3>
+          <ul class="credential-list" id="education-list"></ul>
+        </div>
+        <div>
+          <h3 class="credential-heading">자격 · 어학 <span class="credential-heading-en">Certification</span></h3>
+          <ul class="credential-list" id="certification-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Career / Project -->
+    <section class="section" id="projects">
+      <div class="section-head">
+        <span class="overline">03 · Projects</span>
+        <span class="rule"></span>
+        <span class="section-count" id="project-count"></span>
+      </div>
+      <div class="grid-3" id="project-cards"></div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="section-head">
+        <span class="overline">04 · Capabilities</span>
+        <span class="rule"></span>
+      </div>
+      <div class="skill-tags" id="skill-tags"></div>
+    </section>
+
+    <!-- Chatbot -->
+    <section class="section" id="chatbot">
+      <div class="section-head">
+        <span class="overline">05 · Ask Kim Chaeeun</span>
+        <span class="rule"></span>
+      </div>
+      <p class="section-sub">아래 질문 버튼을 누르거나 직접 궁금한 점을 입력해보세요.</p>
+
+      <div class="quick-questions" id="quick-questions"></div>
+
+      <div class="chat-window" id="chat-window">
+        <div class="chat-bubble bot">
+          안녕하세요! 저는 김채은님의 프로필을 안내하는 챗봇입니다. 강점, 프로젝트, 협업 방향 등이 궁금하시면 편하게 물어봐주세요.
+        </div>
+      </div>
+
+      <form class="chat-input-row" id="chat-form">
+        <input type="text" id="chat-input" placeholder="예: 어떤 프로젝트 경험이 있나요?" autocomplete="off" />
+        <button type="submit" id="chat-submit">질문하기</button>
+      </form>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="section-head">
+        <span class="overline">06 · Contact</span>
+        <span class="rule"></span>
+      </div>
+      <div class="card contact-card">
+        <div>
+          <h3>협업 가능 영역</h3>
+          <ul class="contact-list" id="collab-list"></ul>
+        </div>
+        <div class="contact-cta">
+          <p class="contact-email" id="contact-email"></p>
+          <a id="contact-mail-btn" class="btn-primary" href="#">이메일 보내기</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 김채은. 이 페이지는 개인 프로필 소개용 MVP입니다.</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

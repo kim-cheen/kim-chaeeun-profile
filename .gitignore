@@ -1,0 +1,5 @@
+# Source resume/reference material (contains personal info) — not needed for the deployed site
+*.pdf
+reference image/
+node_modules/
+.vercel/
