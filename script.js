@@ -32,9 +32,10 @@ const profileData = {
   ],
 
   certifications: [
-    { date: "2024.12", name: "조경기사", org: "한국산업인력공단" },
     { date: "2023.11", name: "자연생태복원기사", org: "한국산업인력공단" },
-    { date: "2025.08", name: "2종보통운전면허(오토)", org: "경찰청" }
+    { date: "2024.12", name: "조경기사", org: "한국산업인력공단" },
+    { date: "2025.08", name: "2종보통운전면허(오토)", org: "경찰청" },
+    { date: "2025.12", name: "산업안전기사", org: "한국산업인력공단" }
   ],
 
   mainTasks: [
